@@ -331,8 +331,8 @@ function ProductList({ onHomeClick }) {
                                                 <button
                                                     className="product-button"
                                                     onClick={() => handleAddToCart(plant)} // Handle adding plant to cart
-                disabled={!!addedToCart[plant.name]}                                     >
-                                                     {addedToCart[plant.name] ? "Added to Cart" : "Add to Cart"}
+                                                    disabled={!!addedToCart[plant.name]}                                     >
+                                                    {addedToCart[plant.name] ? "Added to Cart" : "Add to Cart"}
                                                 </button>
                                             </div>
                                         ))}
